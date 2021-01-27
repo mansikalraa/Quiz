@@ -1,0 +1,48 @@
+"What type of join is used when you want to use a join between columns that are in the same table?
+(1) SELF 
+(2) EQUI 
+(3) OUTER 
+(4) CROSS","1"
+"What command tells PostgreSQL that all of the changes you made to a database should become permanent? 
+(1) Apply 
+(2) Execute 
+(3) Commit 
+(4) Send","3"
+"Which command is used to supress the duplicate records? 
+(1) distinct 
+(2) duplicate 
+(3) supress 
+(4) hide","1"
+"Which of the following command is used o modify a SEQUENCE? 
+(1) ALTER SEQUENCE 
+(2) SELECT SEQUENCE 
+(3) DROP SEQUENCE 
+(4) MODIFY SEQUENCE","1"
+"Which of the following is not true about creating CONSTRAINTS? 
+(1) Constraints are defined using CREATE CONSTRAINT command. 
+(2) They are created at the same time when table is created.
+(3) They should be created after the table is created.
+(4) All the constrains are stored in data dict.","3"
+"What does a COALESCE function do?
+(1) It returns the first NON-NULL expression in the parameter list.
+(2) It takes multiple alternate values.
+(3) It returns the first value in the parameter if it is NULL.
+(4) None of the above.","3"
+"Which of the following is not a character manipulation function?
+(1) CONCAT
+(2) INSTR
+(3) SUBSTR
+(4) COALESCE","4"
+"What is returned by INSTR‘KLOUDONE ′ , ‘O′?
+(1) 3
+(2) KLOUD
+(3) 6
+(4) ONE","1"
+"Deadlocks occur when:
+(1) Two users are connected to the same database at the same time.
+(2) Two transactions hold exclusive locks on resources they both need.
+(3) Two users try to access the same table at the same time.
+(4) Data is being written to the same cell by separate processes at the same time.","2"
+"With table inheritance, not null and check constraints are inherited.
+(1) False
+(2) True","2"
